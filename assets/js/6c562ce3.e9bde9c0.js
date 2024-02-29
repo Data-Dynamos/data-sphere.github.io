@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdata_dynamos_github_io=self.webpackChunkdata_dynamos_github_io||[]).push([[9437],{2108:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/data-sphere.github.io/blog/tags/facebook","allTagsPath":"/data-sphere.github.io/blog/tags","count":1}')}}]);
