@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_dynamos_github_io=self.webpackChunkdata_dynamos_github_io||[]).push([[2831],{1055:a=>{a.exports=JSON.parse('{"permalink":"/data-dynamos.github.io/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
