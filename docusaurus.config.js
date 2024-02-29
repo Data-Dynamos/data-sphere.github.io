@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://data-dynamos.github.io',
+  url: 'https://data-sphere.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Data-Dynamos', // Usually your GitHub org/user name.
-  projectName: 'data-dynamos.github.io',
+  projectName: 'data-sphere.github.io',
   trailingSlash: false, 
   deploymentBranch: 'deployment',
 
