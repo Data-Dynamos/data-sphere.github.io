@@ -1,0 +1,69 @@
+---
+sidebar_position: 11
+---
+
+# Exercise 8
+
+## Exercise: Creating a `test_year_column` Macro in DBT
+
+### Objective
+In this exercise, you will create a custom DBT test to ensure that the `year` column in the `co2_emissions_by_country` table (schema `carbon_emissions`) contains only 4-digit values. This is an important validation step to maintain data integrity.
+
+### [Essential Reading 📘 Prior to Starting the Exercise](https://docs.getdbt.com/best-practices/writing-custom-generic-tests)
+
+
+### Instructions
+
+1. **Create a New Macro File:**
+   - Navigate to your DBT project's `macros` directory.
+   - Create a new file named `test_year_column.sql`.
+
+2. **Write the Macro:**
+   - Open `test_year_column.sql` and define a macro named `test_year_column`.
+   - Within the macro, write a Snowflake SQL query that uses the `regexp_like` function to check if the `year` column contains exactly 4 digits.
+
+   Here is a template to start with:
+   ```sql
+   {% macro test_year_column(model, attribute) %}
+
+                    {# 
+                Within the macro, write a Snowflake SQL query that uses the regexp_like function to check if the year column contains exactly 4 digits.
+
+                Table name -->  model 
+                column_name (Example Year)
+                #}
+
+   {% endmacro %}
+   ```
+
+3. **Integrate the Test with Your Model:**
+   - Go to your `schema.yml` file in the `models` directory.
+   - Under the `co2_emissions_by_country` model in the `carbon_emissions` schema, add the new `test_year_column` test for the `year` column.
+
+   Example:
+   ```yaml
+   models:
+     - name: co2_emissions_by_country
+       schema: carbon_emissions
+       columns:
+         - name: year
+           tests:
+             - test_year_column
+   ```
+
+4. **Run the Test:**
+   - Use the DBT CLI to run your tests and validate the implementation 
+
+   ```sql
+
+   dbt test 
+
+   ```
+
+
+* **Hint:** on `regexp_like` Command
+- The `regexp_like` function is used in Snowflake to determine if a string matches a regular expression pattern.
+- In this exercise, the regular expression `'^[0-9]{4}$'` is used to validate that the string has exactly 4 digits.
+
+
+
