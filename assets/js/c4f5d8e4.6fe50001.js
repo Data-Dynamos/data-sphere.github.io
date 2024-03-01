@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdata_dynamos_github_io=self.webpackChunkdata_dynamos_github_io||[]).push([[4195],{2841:(a,t,e)=>{e.r(t),e.d(t,{default:()=>d});var u=e(7294),n=e(6550);function d(){return u.createElement(n.l_,{to:"/docs/tour_agenda"})}}}]);
