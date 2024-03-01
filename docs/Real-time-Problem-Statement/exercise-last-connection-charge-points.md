@@ -12,4 +12,4 @@ minutesToComplete: 60
 
 In this exercise, we'll answer the question: **When was the last connection time of a Charge Point?**
 
-Follow the directions [here](https://github.com/data-derp/exercise-ev-databricks/tree/main/last-connection-time-charge-points) to get started!
+Follow the directions [here](https://github.com/Data-Dynamos/excercise-ev-databricks/tree/master/last-connection-time-charge-points) to get started!

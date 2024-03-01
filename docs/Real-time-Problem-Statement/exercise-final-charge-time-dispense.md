@@ -11,4 +11,4 @@ minutesToComplete: 480
 
 In this exercise, we'll answer the question: **What is the final charge time and final charge dispense for every completed transaction?**.
 
-Follow the directions [here](https://github.com/data-derp/exercise-ev-databricks/tree/main/final-charge-time-charge-dispensed) to get started!
+Follow the directions [here](https://github.com/Data-Dynamos/excercise-ev-databricks/tree/master/final-charge-time-charge-dispensed) to get started!

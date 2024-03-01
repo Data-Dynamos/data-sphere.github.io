@@ -80,7 +80,7 @@ const config = {
           },
           {to: '/resources', label: 'Resources', position: 'left'},
           {
-            href: 'https://github.com/Data-Dynamos/data-dynamos.github.io',
+            href: 'https://github.com/Data-Dynamos/data-sphere.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,12 +103,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/Data-Dynamos/data-dynamos.github.io',
+                href: 'https://github.com/Data-Dynamos/data-sphere.github.io',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Data Dynamos`,
+        copyright: `Copyright © ${new Date().getFullYear()} DataSphere`,
       },
       prism: {
         theme: lightCodeTheme,
