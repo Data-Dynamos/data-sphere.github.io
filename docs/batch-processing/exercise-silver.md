@@ -10,4 +10,4 @@ In the last exercise, we ingested our data. In this exercise, we'll take our fir
 * Flattening our data (unpack nested structures and bring to top level)
 * Casting ambiguous columns to types
 
-Follow the instructions [here](https://github.com/data-derp/exercise-ev-databricks/tree/main/batch-processing-silver) to get started!
+Follow the instructions [here](https://github.com/Data-Dynamos/excercise-ev-databricks/tree/master/batch-processing-silver) to get started!
