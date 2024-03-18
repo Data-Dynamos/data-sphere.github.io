@@ -3,7 +3,7 @@ sidebar_position: 13
 minutesToComplete: 20
 authors: [kmok]
 ---
-# Exercise: Create a Workflow
+# Exercise: Create a Workflow (Optional)
 Quite often, when transforming data, there are several stages of transformation, which when run one after another form what we call a "Data Pipeline" or a "Workflow". For example, a Workflow can start with an ingestion job, then feature several transformations that can fan-out and then fan-in. These Workflows can become rather complex in nature, and it leaves room for human error when individual steps are triggered manually or variability in a large team. In order to encourage reproducibility, it is encouraged to use a Workflow or Data Pipelining tool, in which individual jobs and its properties (like dependencies from which to trigger) are defined. These dependencies are often represented by a [DAG (Directed acyclic graph)](https://en.wikipedia.org/wiki/Directed_acyclic_graph). There are a variety of Workflow/Data Pipelining tools that exist such as [Dagster](https://dagster.io/), [Airflow](https://airflow.apache.org/), and other Platform- or Cloud-native offerings.
 
 Coming back to our existing Batch use case, workflows for Batch Transformations are often started with a manual trigger or automatically in response to an event or cron schedule. In this exercise, we will create a Workflow in Databricks to trigger first our Bronze transformation, and upon success, trigger the Silver transformation logic.
