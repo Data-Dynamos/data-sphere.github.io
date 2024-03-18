@@ -31,6 +31,8 @@ How it works, at a glance:
 3. The Charge Point sends a message to the CSMS according to the OCPP protocol
 4. The CSMS receives the message, processes/records it, and sends back a positive/negative response
 
+![ev-charing_diagram.png](./assets/ev-charing_diagram.png)
+
 The OCPP Protocol is an open standard created by the Open Charge Alliance (OCA) as an effort to standardise communication and encourage interoperability. Both Charge Points (the actual devices) and CSMSs can be certified by the OCA as being compliant with the OCPP Protocol. Despite that, there seems to be some variation between implementations of both Charge Points and CSMSs which are the result of interpretations of OCPP. There is an official testing protocol on the path to certification - both testing and access to the User Acceptance Test (UAT) document provided as part of their OCTT (OCPP Testing Tool) require OCA membership and vetting by OCA. Every year, the OCA has an event called PlugFest where CSMS developers can come to a single place to test their implementations against various Charge Points.
 
 The OCPP Protocol, at the time of writing have the following versions:
