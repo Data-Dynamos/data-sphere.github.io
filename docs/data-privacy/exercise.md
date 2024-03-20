@@ -5,7 +5,7 @@ minutesToComplete: 45
 
 # Exercise
 
-Follow [these instructions](https://github.com/VijayaDurgaN/data-security-exercise/tree/master) to set up the Data Security exercise.
+Follow [these instructions](https://github.com/Data-Dynamos/data_security_excercise-ev-databricks) to set up the Data Security exercise.
 
 **Note** This exercise uses a domain (CO2) from an older iteration of this training.
 
